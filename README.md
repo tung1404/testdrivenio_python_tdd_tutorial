@@ -7,20 +7,28 @@ Tutorial based on: https://testdriven.io/blog/modern-tdd/
 ## Prepare the environment
 
 - Create and activate the virtual environment
-> python3 -m venv venv
+```
+python3 -m venv venv
+```
 
 - Install the requirements
-> pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
 
 ---
 
 ## Run tests
 
 - Run the unit/integration tests
-> python -m pytest -v tests
+```
+python -m pytest -v tests
+```
 
 - Run the test coverage
-> python -m pytest tests --cov=blog
+``` 
+python -m pytest tests --cov=blog 
+```
 
 - Run the E2E tests
 ```
