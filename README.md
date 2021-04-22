@@ -9,6 +9,7 @@ Tutorial based on: https://testdriven.io/blog/modern-tdd/
 - Create and activate the virtual environment
 ```
 python3 -m venv venv
+source venv/bin/activate
 ```
 
 - Install the requirements
